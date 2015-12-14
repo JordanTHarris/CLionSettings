@@ -87,7 +87,7 @@
         <text>&quot;</text>
       </register>
       <register name=":" type="4">
-        <text>action CommentByLineComment</text>
+        <text>action EditorCompleteStatement</text>
       </register>
     </registers>
     <search>
@@ -105,6 +105,7 @@
         <entry encoding="base64">JzwsJz5hY3Rpb24gQ29tbWVudEJ5QmxvY2tDb21tZW50</entry>
         <entry>w</entry>
         <entry>action CommentByLineComment</entry>
+        <entry>action EditorCompleteStatement</entry>
       </history-cmd>
       <history-expr />
       <history-input />
@@ -124,6 +125,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift pressed TAB</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
